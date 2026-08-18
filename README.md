@@ -6,11 +6,15 @@ The Tools menu currently has 3 entries in total, 2 of which are simple placehold
 
 "Launch Server": Initiates an http server, you first connect to a Wi-Fi network of your choosing, you select an html/index file, you enter the port you want the server to run at (Default port is 8000), afterwards you are back to the main menu of Bruce and your server will be running in the background and logging requests to the server in a directory titled "ServerPCAP", contrary to the name of the directory, these are just simple text files with the .log extension, but the logs are quite detailed so there is that.
 
+The tool almost entirely relies on the already implemented feature-sets of Bruce firmware.
+
 The 2 placeholder entries don't do anything:
 Test Wi-Fi
 Hello World (Hello Friend)
 
-I'm SleepyTiel, take care friend.
+I'm SleepyTiel and take care friend.
+
+All credits goes to the creator of the Bruce firmware bmorcelli and the dedicated community of contributors to Bruce firmware.
 
 
 ![Bruce Main Menu](./media/pictures/bruce_banner.jpg)
