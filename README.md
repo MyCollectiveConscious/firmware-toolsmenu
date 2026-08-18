@@ -1,3 +1,18 @@
+This is a fork of Bruce Firmware main branch, currently 1.16.1, this fork adds a new menu entry called "Tools", the menu entry itself is compatible with a Bruce theme if the theme has the json entry "tools", and a corresponding image. 
+
+Only tested with a T-Embed CC1101, no other ESP32 device was tested, and it will likely not work properly with devices with lower specs than the specs of the T-Embed CC1101, though I'm not sure.
+
+The Tools menu currently has 3 entries in total, 2 of which are simple placeholders, so just 1 functional tool:
+
+"Launch Server": Initiates an http server, you first connect to a Wi-Fi network of your choosing, you select an html/index file, you enter the port you want the server to run at (Default port is 8000), afterwards you are back to the main menu of Bruce and your server will be running in the background and logging requests to the server in a directory titled "ServerPCAP", contrary to the name of the directory, these are just simple text files with the .log extension, but the logs are quite detailed so there is that.
+
+The 2 placeholder entries don't do anything:
+Test Wi-Fi
+Hello World (Hello Friend)
+
+I'm SleepyTiel, take care friend.
+
+
 ![Bruce Main Menu](./media/pictures/bruce_banner.jpg)
 
 # :shark: Bruce
