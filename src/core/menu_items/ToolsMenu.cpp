@@ -4,6 +4,7 @@
 #include "core/sd_functions.h"
 #include "core/utils.h"
 #include "core/wifi/wifi_common.h"
+#include "modules/wifi/probe_logger.h"
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
 #include <FS.h>
@@ -212,6 +213,7 @@ void ToolsMenu::optionsMenu() {
     returnToMenu = false;
     options = {
         {"Launch Server", toolsServerMenu      },
+        {"Probe Logger",  probe_logger_setup   },
         {"Hello Friend",  helloWorldPlaceholder},
         {"Test Wi-Fi",    testWifiPlaceholder  },
     };
