@@ -4,6 +4,10 @@
 #include "core/sd_functions.h"
 #include "core/utils.h"
 #include "core/wifi/wifi_common.h"
+#include "modules/others/love_will_tear_us_apart.h"
+#include "modules/rfid/rfid_unlock.h"
+#include "modules/rfid/rfid_watchdog.h"
+#include "modules/wifi/dns_logger.h"
 #include "modules/wifi/probe_logger.h"
 #include <AsyncTCP.h>
 #include <ESPAsyncWebServer.h>
@@ -214,6 +218,10 @@ void ToolsMenu::optionsMenu() {
     options = {
         {"Launch Server", toolsServerMenu      },
         {"Probe Logger",  probe_logger_setup   },
+        {"Bridged AP",    dns_logger_setup      },
+        {"RFID Watchdog", rfid_watchdog_setup  },
+        {"RFID Unlock",   rfid_unlock_setup    },
+        {"Love Will Tear Us Apart", love_will_tear_us_apart_setup },
         {"Hello Friend",  helloWorldPlaceholder},
         {"Test Wi-Fi",    testWifiPlaceholder  },
     };

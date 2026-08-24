@@ -1,3 +1,30 @@
+This is a fork of Bruce Firmware main branch, currently 1.16.1, this fork adds a new menu entry called "Tools" alongside new features on it, the menu entry itself is compatible with a Bruce theme if the theme has the json entry "tools", and a corresponding image.
+
+
+Only tested with a T-Embed CC1101, no other ESP32 device was tested, and it will likely not work properly with devices with lower specs than the specs of the T-Embed CC1101, though I'm not sure.
+
+The Tools menu currently has 4 entries in total, 2 of which are simple placeholders, so 2 functional tools as of right now:
+
+"Launch Server":
+Initiates an http server, you first connect to a Wi-Fi network of your choosing, you select an html/index file, you enter the port you want the server to run at (Default port is 8000), afterwards you are back to the main menu of Bruce and your server will be running in the background and logging requests to the server in a directory titled "ServerPCAP", contrary to the name of the directory, these are just simple text files with the .log extension, but the logs are quite detailed so there is that.
+
+"Probe Logger":
+A dedicated Wi-Fi probe scanning and logging tool, passively scans nearby Wi-Fi probes, and logs each unique SSID alongside how many times it has been probed into a text file in a neatly formatted line-by-line style, the directory is titled "ProbeLogs" and each time the Probe Logger is launched or restarted a new log/text file is created on the directory with the naming sequence "ProbeLog1", "ProbeLog2" etc..
+
+The tools mostly rely on the already implemented feature-sets of Bruce firmware.
+
+The 2 placeholder entries don't do anything: Test Wi-Fi and Hello Friend
+
+
+I'm SleepyTiel and take care.
+
+
+All credits for the firmware goes to the creator of the Bruce firmware: bmorcelli and the dedicated community of contributors to Bruce firmware.
+
+
+Oh and this was almost entirely made with LLM coding, OpenCode Go GPT 5.6 Luna running inside VS Code and OpenCode.
+
+
 ![Bruce Main Menu](./media/pictures/bruce_banner.jpg)
 
 # :shark: Bruce
