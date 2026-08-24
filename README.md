@@ -18,7 +18,9 @@ The 2 placeholder entries don't do anything: Test Wi-Fi and Hello Friend
 
 I'm SleepyTiel and take care.
 
+
 All credits for the firmware goes to the creator of the Bruce firmware: bmorcelli and the dedicated community of contributors to Bruce firmware.
+
 
 Oh and this was almost entirely made with LLM coding, OpenCode Go GPT 5.6 Luna running inside VS Code and OpenCode.
 

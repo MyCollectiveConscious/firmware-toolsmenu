@@ -241,6 +241,33 @@ void MifareKeysManager::createDefaultFile(std::set<String> &keys) {
     keys.insert("FFFFFFFFFFFF");
     keys.insert("A0A1A2A3A4A5");
     keys.insert("D3F7D3F7D3F7");
+    keys.insert("000000000000");
+    keys.insert("A0A1A2A3A4A5");
+    keys.insert("B0B1B2B3B4B5");
+    keys.insert("4D3A99C351DD");
+    keys.insert("1A982C7E459A");
+    keys.insert("AABBCCDDEEFF");
+    keys.insert("714C5C886E97");
+    keys.insert("587EE5F9350F");
+    keys.insert("A0478CC39091");
+    keys.insert("533CB6C723F6");
+    keys.insert("8FD0A4F256E9");
+    keys.insert("A645984A7437");
+    keys.insert("26A94C2871AA");
+    keys.insert("5A2B3C4D5E6F");
+    keys.insert("699A0A123456");
+    keys.insert("B5FF67CB9466");
+    keys.insert("0E0F1A2B3C4D");
+    keys.insert("F56B4E8A2C7D");
+    keys.insert("8CB64A8D97B1");
+    keys.insert("B196515B0B84");
+    keys.insert("5D2AA0F4C8D1");
+    keys.insert("A22AE129CB6E");
+    keys.insert("B6A04F372A9F");
+    keys.insert("2B2A831B85A3");
+    keys.insert("096270646563");
+    keys.insert("1ABB8535031F");
+    keys.insert("5C2A1F0E3D4B");
 
     saveToFile(keys);
 }
